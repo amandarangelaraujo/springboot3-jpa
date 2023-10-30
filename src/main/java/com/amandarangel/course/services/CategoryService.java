@@ -4,15 +4,14 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataIntegrityViolationException;
-import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-import com.amandarangel.course.repositories.UserRepository;
-import com.amandarangel.entities.Category;
-import com.amandarangel.entities.User;
+import com.amandarangel.course.repositories.CategoryRepository;
 
-import jakarta.persistence.EntityNotFoundException;
+import com.amandarangel.entities.Category;
+
+
+
 
 
 
